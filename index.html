@@ -22,7 +22,7 @@
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav_logo">Gabriela Castro</a>
+                <a href="#" class="nav_logo">Gabriela Castro, Software Developer</a>
                 <div class="nav_menu">
                     <ul class="nav_list">
                         <li class="nav_item">
@@ -66,20 +66,22 @@
             <!--=============== HOME ===============-->
             <section class="home section" id="home">
                 <div class="home_container container grid">
-                    <div class="home_data">
-                        <span class="home_greeting">Hello, I am</span>
-                        <hi class="home_name">Gabriela Castro,</hi>
-                        <h3 class="home_education"> a Software Developer</h3>
-                        <div class="home_buttons">
-                            <a download="" href="assets/pdf/GC_R_22.pdf" class="button button--ghost">
-                                Click this to check out my Resume!
-                            </a>
-                            <a href="#about" class="button">About me</a>
-                        </div>
-                    </div>
 
-                    <div class="home_handle">
-                        <img src="assets/img/profile-pic.png" alt="" class="home_img">
+                    <div class="home_top">
+                        <div class="home_handle">
+                            <img src="assets/img/profile-pic.png" alt="" class="home_img">
+                        </div>
+                        <div class="home_data">
+                            <span class="home_greeting">Hello, I am</span>
+                            <h1 class="home_name">Gabriela Castro,</h1>
+                            <h3 class="home_education"> a Software Developer</h3>
+                            <div class="home_buttons">
+                                <a download="" href="assets/pdf/GC_R_22.pdf" class="button button--ghost">
+                                    Click this to check out my Resume!
+                                </a>
+                                <a href="#about" class="button">About me</a>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="home_social">
@@ -113,13 +115,13 @@
                             <div class="about_box">
                                 <i class='bx bx-award about_icon' ></i>
                                 <h3 class="about_title">Professional Experience</h3>
-                                <span class="about_subtitle">3 Years</span>
+                                <span class="about_subtitle">1 Year</span>
                             </div>
 
                             <div class="about_box">
                                 <i class='bx bx-briefcase-alt about_icon' ></i>
                                 <h3 class="about_title">Projects Completed</h3>
-                                <span class="about_subtitle">3</span>
+                                <span class="about_subtitle">10</span>
                             </div>
 
                             <div class="about_box">
@@ -130,10 +132,11 @@
                         </div>
 
                         <p class="about_description">Welcome to my personal portfolio! 
-                        I am a recent graduate of Barnard College, Columbia University (Class of 2019). 
+                        I am a graduate of Barnard College, Columbia University (Class of 2019). 
                         I completed my BA in Neuroscience and Behavior, focusing on Parkinsons, Alzheimers 
-                        and lysosomal storage disorders research. I am training to become a software developer 
-                        to further expand my skillset and build programs that benefit society.
+                        and lysosomal storage disorders research. I am teaching myself to code to become a software developer 
+                        to further expand my skillset and build programs that benefit society. As of October 2022, 
+                        I was accepted into the Adobe Digital Academy: Software Engineering Immersive, which will begin March 2023.
                         </p>
 
                         <a href="#contact" class="button">Contact Me!</a>
@@ -234,14 +237,14 @@
                                     </div>
                                 </div>
 
-                                <div class="skills_data">
+                                <!-- <div class="skills_data">
                                     <i class='bx bxs-badge-check' ></i>
 
                                     <div>
                                         <h3 class="skills_name">Python</h3>
                                         <span class="skills_level"> Basic</span>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
 
                             <div class="skills_group">
@@ -254,14 +257,14 @@
                                     </div>
                                 </div>
                                 
-                                <div class="skills_data">
+                                <!-- <div class="skills_data">
                                     <i class='bx bxs-badge-check' ></i>
 
                                     <div>
                                         <h3 class="skills_name">Firebase</h3>
                                         <span class="skills_level">Basic</span>
                                     </div>
-                                </div>
+                                </div> -->
                             
                             </div>
                         </div>
@@ -270,7 +273,7 @@
             </section>
 
             <!--=============== SERVICES ===============-->
-            <section class="services section">
+            <!-- <section class="services section">
                 <span class="section_subtitle">My Services</span>
                 <h2 class="section_title">What I Offer</h2>
 
@@ -425,7 +428,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <!--=============== WORK ===============-->
             <section class="work section" id="work">
@@ -434,58 +437,58 @@
 
                <div class="work_filters">
                    <span class="work_item active_work" data-filter="all">ALL</span>
-                   <span class="work_item" data-filter=".web">Web</span>
-                   <span class="work_item" data-filter=".movil">Movil</span>
-                   <span class="work_item" data-filter=".design">Design</span>
+                   <span class="work_item" data-filter=".jsapp">Javascript Apps</span>
+                   <span class="work_item" data-filter=".web">Website Designs</span>
+                   <span class="work_item" data-filter=".fullstack">Full Stack Apps</span>
                </div>
 
                <div class="work_container container grid">
-                   <div class="work_card mix web">
-                       <img src="assets/img/work1.jpg" alt="" class="work_img">
+                   <div class="work_card mix jsapps">
+                       <img src="assets/img/movieapp.png" alt="" class="work_img">
 
-                       <h3 class="work_title">Web Design</h3>
+                       <h3 class="work_title">Movie Search App</h3>
 
-                       <a href="#" class="work_button">
+                       <a href="https://gcastrocastro.github.io/movie-app/" class="work_button">
                            Demo <i class='bx bx-right-arrow-alt work_icon'></i>
                        </a>
                    </div>
 
-                   <div class="work_card mix movil">
-                    <img src="assets/img/work2.jpg" alt="" class="work_img">
+                   <div class="work_card mix fullstack">
+                    <img src="assets/img/facerecognition.png" alt="" class="work_img">
 
-                    <h3 class="work_title">App Movil</h3>
+                    <h3 class="work_title">Image Face Recognition React App</h3>
 
-                    <a href="#" class="work_button">
+                    <a href="https://facerecognition-ngqa.onrender.com" class="work_button">
+                        Demo <i class='bx bx-right-arrow-alt work_icon'></i>
+                    </a>
+                    </div>
+
+                   <div class="work_card mix jsapp">
+                    <img src="assets/img/recipeapp.png" alt="" class="work_img">
+
+                    <h3 class="work_title">Recipe Search App</h3>
+
+                    <a href="https://gcastrocastro.github.io/recipe-app/" class="work_button">
                         Demo <i class='bx bx-right-arrow-alt work_icon'></i>
                     </a>
                 </div>
 
-                <div class="work_card mix design">
-                    <img src="assets/img/work3.jpg" alt="" class="work_img">
+                <div class="work_card mix jsapp">
+                    <img src="assets/img/drawingapp.png" alt="" class="work_img">
 
-                    <h3 class="work_title">Brand Design</h3>
+                    <h3 class="work_title">Drawing App</h3>
 
-                    <a href="#" class="work_button">
+                    <a href="https://gcastrocastro.github.io/drawing-app/" class="work_button">
                         Demo <i class='bx bx-right-arrow-alt work_icon'></i>
                     </a>
                 </div>
 
-                <div class="work_card mix web">
-                    <img src="assets/img/work4.jpg" alt="" class="work_img">
+                <div class="work_card mix jsapp">
+                    <img src="assets/img/githubapp.png" alt="" class="work_img">
 
-                    <h3 class="work_title">Web Design</h3>
+                    <h3 class="work_title">Github Search App</h3>
 
-                    <a href="#" class="work_button">
-                        Demo <i class='bx bx-right-arrow-alt work_icon'></i>
-                    </a>
-                </div>
-
-                <div class="work_card mix movil">
-                    <img src="assets/img/work5.jpg" alt="" class="work_img">
-
-                    <h3 class="work_title">App Movil</h3>
-
-                    <a href="#" class="work_button">
+                    <a href="https://gcastrocastro.github.io/github-profile-app/" class="work_button">
                         Demo <i class='bx bx-right-arrow-alt work_icon'></i>
                     </a>
                 </div>
@@ -493,7 +496,7 @@
             </section>
 
             <!--=============== TESTIMONIALS ===============-->
-            <section class="testimonial section">
+            <section class="testimonial section" id="testimonial">
                 <span class="section_subtitle">My clients say</span>
                 <h2 class="section_title">Testimonial</h2>
 
@@ -556,9 +559,8 @@
                             <div class="contact_card">
                                 <i class='bx bxl-whatsapp contact_card-icon' ></i>
                                 <h3 class="contact_card-title">Whatsapp</h3>
-                                <span class="contact_card-data"> 777-777-7777 </span>
 
-                                <a href="" target="_blank" class="contact_button">
+                                <a href="https://wa.me/19283018596?text=I'm%20inquiring%20about%20your%20software%20development%20services" target="_blank" class="contact_button">
                                     Write me <i class='bx bx-right-arrow-alt contact_button-icon' ></i>
                                 </a>
                             </div>
@@ -578,20 +580,20 @@
                     <div class="contact_content">
                         <h3 class="contact_title">Write me your project</h3>
 
-                        <form action="" class="contact_form">
+                        <form action="https://getform.io/f/22a80538-6029-4c59-b12d-6ba53f446f20" method="POST" class="contact_form">
                             <div class="contact_form-div">
                                 <label for="" class="contact_form-tag">Name</label>
-                                <input type="text" placeholder="Insert your full name" class="contact_form-input">
+                                <input type="text" placeholder="Insert your full name" class="contact_form-input" name="name">
                             </div>
 
                             <div class="contact_form-div">
                                 <label for="" class="contact_form-tag">Mail</label>
-                                <input type="text" placeholder="Insert your email" class="contact_form-input">
+                                <input type="text" placeholder="Insert your email" class="contact_form-input" name="email">
                             </div>
 
                             <div class="contact_form-div contact_form-area">
                                 <label for="" class="contact_form-tag">Project</label>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Describe your project here!" class="contact_form-input"></textarea>
+                                <textarea name="text" id="" cols="30" rows="10" placeholder="Describe your project here!" class="contact_form-input"></textarea>
                             </div>
 
                             <button class="button">Send Message</button>
@@ -616,7 +618,7 @@
                     </li>
 
                     <li>
-                        <a href="#testimonial" class="footer_link">Testimonial</a>
+                        <a href="#testimonial" class="footer_link">Testimonials</a>
                     </li>
                 </ul>
 
@@ -633,8 +635,10 @@
                         <i class='bx bxl-twitter' ></i>
                     </a>
                 </ul>
-
-                <span class="footer_copy"> © 2022 Website hand coded in HTML, CSS and JavaScript, with design inspired by <a href="https://www.youtube.com/watch?v=oy8dSsK57Ps">Bedimcode</a></span>
+                <div class="footer_copy">
+                    <span>Copyright &copy; <script>document.write(new Date().getFullYear())</script> Gabriela Castro All Rights Reserved </a></span><br>
+                    <span>Website hand coded in HTML, CSS and JavaScript, with design inspired by <a href="https://www.youtube.com/watch?v=oy8dSsK57Ps">Bedimcode</a></span>
+                </div>
             </div>
         </footer>
 

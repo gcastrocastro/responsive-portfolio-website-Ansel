@@ -331,6 +331,11 @@ body.light-theme{
   width: 160px;
 }
 
+.home_top{
+  display:flex;
+  justify-content: center;
+}
+
 .home_handle{
   justify-self: center;
   width: 190px;
@@ -344,6 +349,7 @@ body.light-theme{
   align-items: flex-end;
   justify-content: center;
   overflow:hidden;
+  margin-right: 50px;
 }
 
 .home_buttons{
